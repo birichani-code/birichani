@@ -127,6 +127,30 @@ Completed my Secondary school with good grade and joined Passenga before Salient
     }
   ];
   exprienceData: any = [
+   {
+    id: 4,
+     company: 'Black Mental Health Matters, Kenya',
+     location: 'Nairobi, Kenya',
+     timeline: 'March 2023 -  To Date',
+     role: 'Back End Developer',
+     work: `Technologies : Agile, Node JS,Spring Boot,Javascript, Java.
+     Responsibilities
+   Writing clean, scalable & efficient code
+        Compile and analyze data, processes, and codes to troubleshoot problems and identify areas for
+        improvement.
+        Developing ideas for new programs, products, or features by monitoring industry developments
+        and trends.
+        Participating in continuing education and training to remain current on best practices, learn new
+        programming languages, and better assist other team members.
+        Taking lead on projects, as needed.
+        Integration of user-facing elements developed by front-end developers with server-side logic
+        Building reusable code libraries for future use
+        Designing and implementing RESTful APIs
+        Optimizing the performance of applications for full-scale production deployments
+        Providing code documentation and other inputs to technical documents
+        Participating in code reviews
+        Troubleshooting and debugging to optimize performance`
+      },
 
     {
       id: 3,
@@ -134,7 +158,7 @@ Completed my Secondary school with good grade and joined Passenga before Salient
       location: 'JKUAT,Nairobi, Kenya',
       timeline: 'Nov 2021 to May 2022',
       role: 'Ass Chapter Lead',
-      work: `Technologies : Geeks for Geeks Website:,Angular , Node JS, . 
+      work: `Technologies : Geeks for Geeks Website:,Angular , Node JS, .
       Responsible for overseeing the activities and progress of various departments such as marketing and
 PR outreach, design and branding and events department. Making important decisions together with the chairperson for the society
 Responsibility of keeping track of all meetings and events.
@@ -150,7 +174,7 @@ Responsibility of keeping track of all meetings and events..`
       location: 'JKUAT, Nairobi,Kenya.',
       timeline: 'Aug 2021 to Oct 2021',
       role: 'Technical Lead: Frontend  Developer',
-      work: `Geeks for Geeks Website: Angular , Node JS , MYSQL . 
+      work: `Geeks for Geeks Website: Angular , Node JS , MYSQL .
   Helping the society in tech related events
 Focused on building a website for the Geeks for Geeks student’s chapter where sharing all the
 scheduled events, facts, articles were done.
@@ -165,8 +189,8 @@ regarding technical stuffs.
       location: 'Muranga,Kenya.',
       timeline: 'June 2021 - Aug 2021',
       role: 'Assistant System Engineer Trainee',
-      work: `Technologies :Java, Spring Boot , SQL . 
-  
+      work: `Technologies :Java, Spring Boot , SQL .
+
   Project 1 : Worked on uploading two excelsheets with bulk of data and finding the matchesfor each
 business
 Project 2 : Worked on indexing the search resultsinside the application with bulk of data and
