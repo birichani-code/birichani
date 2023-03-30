@@ -70,7 +70,7 @@ export class ProfileService {
     },
     {
       'id': '4',
-      'skill': 'SQL , MYSQL,H2',
+      'skill': 'SQL , MYSQL,H2, MONGODB, ',
       'progress': '75%'
     },
     {
@@ -85,7 +85,7 @@ export class ProfileService {
     },
     {
       'id': '7',
-      'skill': 'HIBERNATE, MAVEN',
+      'skill': 'HIBERNATE, MAVEN, GRADLE',
       'progress': '87%'
     },
     {
@@ -93,6 +93,11 @@ export class ProfileService {
       'skill': 'REST API,JAVASCRIPT ',
       'progress': '80%'
     }
+    {
+        'id': '9',
+          'skill': 'SPRING MICROSERVICES, SPRING CLOUD ',
+          'progress': '60%'
+     }
   ];
 
 
