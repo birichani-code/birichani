@@ -92,12 +92,17 @@ export class ProfileService {
       'id': '8',
       'skill': 'REST API,JAVASCRIPT ',
       'progress': '80%'
-    }
+    },
     {
         'id': '9',
           'skill': 'SPRING MICROSERVICES, SPRING CLOUD ',
           'progress': '60%'
-     }
+     },
+     {
+             'id': '10',
+               'skill': 'GIT, DATABASE ENGINEERING ',
+               'progress': '70%'
+          }
   ];
 
 
