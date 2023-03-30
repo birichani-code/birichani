@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "personal-portfolio-angular": {
+    "birichani": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/personal-portfolio-angular/browser",
+            "outputPath": "dist/birichani/browser",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -65,18 +65,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "personal-portfolio-angular:build"
+            "browserTarget": "birichani:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "personal-portfolio-angular:build:production"
+              "browserTarget": "birichani:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "personal-portfolio-angular:build"
+            "browserTarget": "birichani:build"
           }
         },
         "test": {
@@ -114,18 +114,18 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "personal-portfolio-angular:serve"
+            "devServerTarget": "birichani:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "personal-portfolio-angular:serve:production"
+              "devServerTarget": "birichani:serve:production"
             }
           }
         },
         "server": {
           "builder": "@angular-devkit/build-angular:server",
           "options": {
-            "outputPath": "dist/personal-portfolio-angular/server",
+            "outputPath": "dist/birichani/server",
             "main": "server.ts",
             "tsConfig": "tsconfig.server.json"
           },
@@ -146,21 +146,21 @@
         "serve-ssr": {
           "builder": "@nguniversal/builders:ssr-dev-server",
           "options": {
-            "browserTarget": "personal-portfolio-angular:build",
-            "serverTarget": "personal-portfolio-angular:server"
+            "browserTarget": "birichani:build",
+            "serverTarget": "birichani:server"
           },
           "configurations": {
             "production": {
-              "browserTarget": "personal-portfolio-angular:build:production",
-              "serverTarget": "personal-portfolio-angular:server:production"
+              "browserTarget": "birichani:build:production",
+              "serverTarget": "birichani:server:production"
             }
           }
         },
         "prerender": {
           "builder": "@nguniversal/builders:prerender",
           "options": {
-            "browserTarget": "personal-portfolio-angular:build:production",
-            "serverTarget": "personal-portfolio-angular:server:production",
+            "browserTarget": "birichani:build:production",
+            "serverTarget": "birichani:server:production",
             "routes": [
               "/"
             ]
@@ -171,7 +171,7 @@
         }
       }
     }},
-  "defaultProject": "personal-portfolio-angular",
+  "defaultProject": "birichani",
   "cli": {
     "analytics": "5f0d0523-e04b-4154-aee0-f52b15c4efa2"
   }

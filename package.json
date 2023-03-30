@@ -1,5 +1,5 @@
 {
-  "name": "personal-portfolio-angular",
+  "name": "birichani",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,10 +8,10 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "dev:ssr": "ng run personal-portfolio-angular:serve-ssr",
-    "serve:ssr": "node dist/personal-portfolio-angular/server/main.js",
-    "build:ssr": "ng build --configuration production && ng run personal-portfolio-angular:server:production",
-    "prerender": "ng run personal-portfolio-angular:prerender"
+    "dev:ssr": "ng run birichani:serve-ssr",
+    "serve:ssr": "node dist/birichani/server/main.js",
+    "build:ssr": "ng build --configuration production && ng run birichani:server:production",
+    "prerender": "ng run birichani:prerender"
   },
   "private": true,
   "dependencies": {
